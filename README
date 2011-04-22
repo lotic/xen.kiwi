@@ -1,0 +1,1 @@
+The xen.springer is a kiwi test image for the xen hypervisor the majority of the configurations are default with no added packages other then the ones used by the example files that it was created from such as the config.xml and the opensuse-11.3 files located here with it
