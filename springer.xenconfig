@@ -1,0 +1,8 @@
+#  -*- mode: python; -*-
+name="springer"
+
+memory=128
+# Raw disk image accessed via loopback on virutal host see /etc/xen/examples
+disk=[ 'file:/home/marcus/kiwi/myxen-image/suse-11.3-xen-guest.i686-1.1.2.raw,xvdb,w' ]
+vif=[ "mac=00:0C:6E:AA:57:2F,bridge=br0" ]
+vfb = ["type=vnc,vncunused=1,vnclisten=0.0.0.0"]
